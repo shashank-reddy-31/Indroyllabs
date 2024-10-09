@@ -29,6 +29,19 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### npm install react-qr-code
+The installation to insert QRCode in the react.
+
+
+1) The project begins with setting up a basic React application and managing state with useState and useEffect hooks.
+2) A simple user interface is designed to display questions and player information across computer and mobile views.
+3) Questions are hardcoded with multiple-choice answers (A, B, C, D), establishing the foundation for player interaction.
+4) A QR code is generated for players to scan, seamlessly connecting them to the game on their mobile devices.
+5) Players enter their names upon joining via mobile, and these names are stored and displayed in the application.
+6) The current question and answer options are dynamically updated on both screens using conditional rendering.
+7) Mobile users can select and submit their answers, which trigger feedback on both screens based on the correctness of their responses.
+8) Game logic, including player management and question handling, is effectively managed through React's state management features.
+
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
